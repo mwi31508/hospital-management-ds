@@ -1,0 +1,26 @@
+Test Results – Hospital Management System
+
+Test Case 1: Add Patient
+Input: Ali
+Output: Patient added to waiting list
+Status: PASS
+
+Test Case 2: Treat Patient
+Input: Treat next patient
+Output: Patient treated successfully
+Status: PASS
+
+Test Case 3: Search Patient
+Input: Search "Ali"
+Output: Patient found
+Status: PASS
+
+Test Case 4: Update Patient
+Input: Update name Ali to Ahmed
+Output: Patient name updated
+Status: PASS
+
+Edge Case:
+Input: Treat when no patients
+Output: No patients to treat
+Status: PASS
