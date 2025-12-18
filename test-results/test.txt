@@ -1,0 +1,49 @@
+TEST LOG – WEEK 3
+PROJECT: HOSPITAL MANAGEMENT SYSTEM
+
+------------------------------------
+TEST CASE 1: NORMAL INPUT
+------------------------------------
+Action:
+- Added patient "Ali"
+- Added patient "Sara"
+- Displayed waiting patients
+- Treated first patient
+
+Output:
+- Patients added successfully
+- Waiting list displayed correctly
+- Patient treated and moved to treated list
+
+Result:
+PASS
+
+------------------------------------
+TEST CASE 2: INCORRECT INPUT
+------------------------------------
+Action:
+- Tried to treat patient when no patient was in waiting list
+
+Output:
+- System displayed message: "No patients to treat"
+
+Result:
+PASS
+
+------------------------------------
+TEST CASE 3: EDGE CASE
+------------------------------------
+Action:
+- Searched a patient name that does not exist
+
+Output:
+- System displayed message: "Patient not found"
+
+Result:
+PASS
+
+------------------------------------
+FINAL RESULT
+------------------------------------
+All test cases executed successfully.
+The system handled normal, incorrect, and edge cases properly.
